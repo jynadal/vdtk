@@ -23,8 +23,79 @@ import WeeklyOverview from 'src/views/dashboard/WeeklyOverview'
 import DepositWithdraw from 'src/views/dashboard/DepositWithdraw'
 import SalesByCountries from 'src/views/dashboard/SalesByCountries'
 
+
+  const profilData = [
+    {
+        avatar:"public/images/avatars/jeanyvesN.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+        color: "primary"
+    },
+    {
+        avatar:"/images/avatars/anthonyB.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    }
+    ,{
+        avatar:"/images/avatars/stephanieD.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    },
+    {
+        avatar:"/images/avatars/jeanpierreN.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    },
+    {
+        avatar:"/images/avatars/kellyM.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    },
+    {
+        avatar:"/images/avatars/marcS.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    }
+    ,{
+        avatar:"/images/avatars/EricA.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    },
+    {
+        avatar:"/images/avatars/tonyP.jpeg",
+        picture:"/images/avatars/1.jpeg",
+        name:"Anthony B.",
+        numbersMovies: '8',
+        subtitle: "Investor, Founder",
+         color: "primary"
+    },
+
+]
+
 const Dashboard = () => {
+
   return (
+  
     <ApexChartWrapper>
       <Grid container spacing={6}>
 
@@ -33,9 +104,9 @@ const Dashboard = () => {
             <Grid container spacing={6}>
                 <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
-                    numbersMovies= '1'
+                    avatar = "./images/avatars/jeanyvesN.jpeg"
+                    name ="John Yves Nadal"
+                    numbersMovies= '50'
                     subtitle = "Cinephile"
                     picture = ""
                    />
@@ -43,8 +114,8 @@ const Dashboard = () => {
                    
                 <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
+                    avatar = "/images/avatars/anthonyB.jpeg"
+                    name ="Anthony B."
                     numbersMovies= '2'
                     subtitle = "Cinephile"
                     picture = ""
@@ -53,8 +124,8 @@ const Dashboard = () => {
 
                   <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
+                    avatar = "/images/avatars/stephanieD.jpeg"
+                    name ="Stéphanie D."
                     numbersMovies= '3'
                     subtitle = "Cinephile"
                     picture = ""
@@ -63,8 +134,8 @@ const Dashboard = () => {
                    
                 <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
+                    avatar = "/images/avatars/jeanpierreN.jpeg"
+                    name ="Jean-Pierre N."
                     numbersMovies= '4'
                     subtitle = "Cinephile"
                     picture = ""
@@ -73,8 +144,8 @@ const Dashboard = () => {
 
                 <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
+                    avatar = "/images/avatars/kellyM.jpeg"
+                    name ="Kelly M."
                     numbersMovies= '5'
                     subtitle = "Cinephile"
                     picture = ""
@@ -83,8 +154,8 @@ const Dashboard = () => {
                    
                 <Grid item lg={2} xs={12} >
                     <CardProfilsVerticalComponent
-                    avatar = ""
-                    name ="John Doe"
+                    avatar = "/images/avatars/marcS.jpeg"
+                    name ="Marc S."
                     numbersMovies= '6'
                     subtitle = "Cinephile"
                     picture = ""
