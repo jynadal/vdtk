@@ -14,7 +14,7 @@ SECRET_KEY = 'spwntqir*dq=!i6)p5#97@ovsgks3&s-f8p^$%yp@z!b+(gbj='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["vdtk.netlify.app","127.0.0.1"]
 
 
 # Application definition
