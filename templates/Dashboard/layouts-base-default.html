@@ -1,0 +1,58 @@
+{% extends "Dashboard/dashboard-base.html" %}
+
+{% load static %}
+
+{% block title %}VDTK Dashboard Underconstruction{% endblock %}
+
+
+		{% block content %}
+		<section class="body">
+
+			<!-- start: header -->
+			  {% include 'Dashboard/partials/header.html' %}
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				{% include 'Dashboard/partials/asideleft.html' %}
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<h2>Dashboard Underconstruction</h2>
+
+						<div class="right-wrapper text-end">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="index.html">
+										<i class="bx bx-home-alt"></i>
+									</a>
+								</li>
+
+								<li><span>Layouts</span></li>
+
+								<li><span>Default</span></li>
+
+							</ol>
+
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fas fa-chevron-left"></i></a>
+						</div>
+					</header>
+
+					<!-- start: page -->
+					{% include 'Dashboard/partials/card1-2.html' %}
+
+					{% include 'Dashboard/partials/card3-4.html' %}
+					
+					{% include 'Dashboard/partials/card5-6.html' %}
+
+					{% include 'Dashboard/partials/card7-8.html' %}
+
+					<!-- end: page -->
+				</section>
+			</div>
+
+			<!-- {% include 'Dashboard/partials/asideright.html' %} -->
+
+		</section>
+		  {% endblock %}

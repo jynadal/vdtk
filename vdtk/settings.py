@@ -14,7 +14,7 @@ SECRET_KEY = 'spwntqir*dq=!i6)p5#97@ovsgks3&s-f8p^$%yp@z!b+(gbj='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["vdtk.netlify.app","127.0.0.1"]
+ALLOWED_HOSTS = [".netlify.app","127.0.0.1"]
 
 
 # Application definition
@@ -61,7 +61,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'vdtk.wsgi.application'
+# WSGI_APPLICATION = 'landing.wsgi.app'
 
 
 # Database
@@ -113,9 +113,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = BASE_DIR / "staticfiles"
+# STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage",
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
